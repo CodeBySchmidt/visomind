@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-intro {
+    background-color: #ECECEC;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-Kapitel-1 {
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-Kapitel-2 {
+    background-color: #424242;
+    height: 100vh;
+    display: grid;
+    color: #ECECEC;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App-Kapitel-3 {
+    background-color: #262626;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-Kapitel-4 {
+    background-color: #194673;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
+}
+
+.App-Kapitel-5 {
+    background-color: #2A75BF;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
+}
+
+.App-Kapitel-6 {
+    background-color: #3491ED;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Roboto Black", sans-serif;
 }
