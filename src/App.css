@@ -2,13 +2,18 @@
 
 }
 
+.Content-container{
+
+}
+
 .App-intro {
     background-color: #ECECEC;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
     color: #262626;
+    /*padding: 10vh;*/
 }
 
 .App-Kapitel-1 {
