@@ -1,5 +1,5 @@
 .header-logo {
-  height: 5vmax;
+  height: 4rem;
   pointer-events: none;
 }
 
@@ -20,6 +20,7 @@
   color: white;
   position: fixed;
   backdrop-filter: blur(10px);
+  z-index: 10;
 }
 
 .header-link {
