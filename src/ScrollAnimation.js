@@ -4,6 +4,7 @@ import "./ScrollAnimation.css"; // Ihre CSS-Datei für Animationen
 
 import myTestImage from "./test.jpg";
 
+
 const ScrollAnimation = () => {
   const elementsRef = useRef([]);
 
@@ -24,7 +25,7 @@ const ScrollAnimation = () => {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.1 }
     );
 
     elementsRef.current.forEach((el) => {
@@ -56,6 +57,7 @@ const ScrollAnimation = () => {
             <div className="image-container">
               <img src={myTestImage} alt="test"/>
               <img src={myTestImage} alt="test"/>
+
             </div>
 
           </div>

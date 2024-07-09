@@ -16,6 +16,7 @@ function App() {
 
           <LoadingContainer/>
 
+          <div className={"end-App"}> Footer </div>
       </div>
   );
 }

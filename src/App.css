@@ -32,6 +32,16 @@ body::-webkit-scrollbar {
 
 }
 
-.App {
+body {
     background-color: #262626;
+}
+
+.end-App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10vh;
+    background-color: #194673;
+    font-size: 1.5rem;
 }

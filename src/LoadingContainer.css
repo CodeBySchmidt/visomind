@@ -4,7 +4,7 @@
 .loading-container {
   display: grid;
   align-items: end;
-  height: 100vh;
+  min-height: 100svh;
   overflow: hidden;
 }
 
