@@ -20,16 +20,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-@font-face {
-  font-family: "Roboto Black", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

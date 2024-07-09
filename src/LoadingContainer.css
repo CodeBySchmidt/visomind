@@ -1,26 +1,21 @@
 /* Stile für die LoadingContainer-Komponente */
-body {
-      background-color: #262626;
-}
+
 
 .loading-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
   align-items: end;
-  height: 100vh; /* Vollständige Bildschirmhöhe verwenden */
-  overflow: hidden; /* Überlauf verstecken, um den Inhalt zu verbergen, der nach oben animiert wird */
-  margin-bottom: 150px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .loader {
-  width: 100%;
   opacity: 0;
-  background-color: #3498db; /* Hintergrundfarbe des Ladeindikators */
-  animation: slide-up 1s ease-out 1s forwards; /* Animation für das Hochschieben mit 2 Sekunden Verzögerung */
+  animation: slide-up 1s ease-out 0.5s forwards;
 }
 
 .loader img {
   width: 100%;
+  filter: invert();
 }
 
 @keyframes slide-up {
