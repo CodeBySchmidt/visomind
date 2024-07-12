@@ -1,0 +1,56 @@
+/* Stile für die LoadingContainer-Komponente */
+
+
+.loading-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Higher z-index to be in the foreground */
+}
+
+.loader {
+    opacity: 0;
+    animation: slide-up 1s ease-out 0.5s forwards;
+}
+
+.loader img {
+    width: 100%;
+    filter: invert();
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%); /* Startposition unten */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Endposition oben */
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.canvas-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* or set it to a specific height like 500px */
+}
+
+canvas {
+    animation: fadeIn 1s ease-out 0.8s forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0; /* Lower z-index to be in the background */
+    opacity: 0;
+}

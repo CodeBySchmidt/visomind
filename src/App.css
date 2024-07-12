@@ -33,10 +33,14 @@ body::-webkit-scrollbar {
 }
 
 body {
+    cursor: url("cursor.svg"),
+    auto;
+
     background-color: #262626;
 }
 
-.end-App{
+
+.end-App {
     display: flex;
     justify-content: center;
     align-items: center;

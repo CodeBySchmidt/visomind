@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 
 import "./ScrollAnimation.css"; // Ihre CSS-Datei für Animationen
 
-import myTestImage from "./test.jpg";
+import myTestImage from "../test.jpg";
 
 
 const ScrollAnimation = () => {

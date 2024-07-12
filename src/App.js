@@ -1,8 +1,10 @@
 import './App.css';
-import Header from "./Header";
-import ScrollAnimation from "././ScrollAnimation";
-import LoadingContainer from "./LoadingContainer";
+import Header from "./Components/Header";
+import ScrollAnimation from "./Components/ScrollAnimation";
+import LoadingContainer from "./Components/LoadingContainer";
 import React from "react";
+
+
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <LoadingContainer/>
 
           <ScrollAnimation/>
+
+
 
           <LoadingContainer/>
 
