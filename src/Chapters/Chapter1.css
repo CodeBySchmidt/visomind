@@ -1,0 +1,58 @@
+.Chapter1 {
+    display: flex;
+    justify-content: space-between; /* Make space between the two containers */
+    /*align-items: flex-start; !* Align items to the top *!*/
+    background-color: #ececec;
+    height: 90vh;
+}
+
+.Chapter1 .Container {
+    flex: 2; /* This will make the Container take up available space */
+    margin-right: 20px; /* Add some space between the text and the image */
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.ImageContainer {
+    flex: 1; /* This will make the ImageContainer take up available space */
+}
+
+.Content {
+    display: grid;
+
+}
+
+.Topic {
+    font-size: 3rem;
+    font-family: Orbitron, monospace;
+    font-weight: bold;
+    text-align: left; /* Text linksbündig ausrichten */
+}
+
+.TextColumn {
+    text-align: justify;
+    font-size: calc(10px + 1vmin);
+
+    padding-top: 40px;
+}
+
+.ButtonContainer{
+    padding-top: 40px;
+}
+
+
+.Chapter1 .Paceholder {
+    height: 100%;
+    width: 100%;
+    background-color: #61dafb;
+}
+
+button {
+    background-color: #61dafb;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Orbitron, monospace;
+    font-weight: bold;
+}

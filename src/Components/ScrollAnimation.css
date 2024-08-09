@@ -1,45 +1,6 @@
 .scrollAnimation {
-
     width: 100%;
     height: 100%;
-    padding-top: 150px;
-}
-
-main {
-
-    display: grid;
-    justify-content: center;
-    gap: 200px;
-    overflow: hidden;
-}
-
-main div {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    transition: all ease-in 1s;
-    text-align: center;
-    height: 100%;
-    width: 90vw;
-    padding: 5px;
-
-    font-size: 3rem;
-    font-family: "Roboto Black", sans-serif;
-
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 80%; /* Maximale Höhe des Bildes in dem Container */
-
-}
-
-img {
-    height: 100%;
-    object-fit: contain;
 }
 
 .fade-element {
@@ -56,37 +17,8 @@ img {
     opacity: 0;
 }
 
-.eins {
-    background-color: #ffffff;
-    color: #262626;
-}
-
-.zwei {
-
-    background-color: #424242;
-    color: #ececec;
-}
-
-.drei {
-
-    background-color: white;
-    color: #262626;
-}
-
-.vier {
-
-    background-color: #194673;
-    color: #ececec;
-}
-
-.funf {
-
-    background-color: #2a75bf;
-    color: #ececec;
-}
-
-.sechs {
-
-    background-color: #3491ed;
-    color: #ececec;
+.scrollAnimation main {
+    display: grid;
+    /*gap: 200px;*/
+    overflow: hidden;
 }

@@ -1,0 +1,27 @@
+.IntroAI {
+
+    display: grid;
+    justify-content: center;
+    gap: 200px;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+
+.IntroAI .Topic {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all ease-in 1s;
+    text-align: center;
+    height: 100%;
+    width: 90vw;
+    padding: 5px;
+    color: #ececec;
+    font-size: 3rem;
+    font-family: "Roboto Black", sans-serif;
+    /*background-color: #ececec;*/
+
+}
