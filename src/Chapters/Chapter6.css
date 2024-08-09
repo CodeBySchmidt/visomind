@@ -1,8 +1,8 @@
-.Chapter3 {
+.Chapter6 {
     display: flex;
     justify-content: space-between; /* Make space between the two containers */
     /*align-items: flex-start; !* Align items to the top *!*/
-    background-color: #ececec;
+    background-color: #FFFFFF;
     height: 90vh;
 }
 
