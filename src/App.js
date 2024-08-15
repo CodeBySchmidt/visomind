@@ -1,8 +1,10 @@
 import './App.css';
+import React from "react";
+import Footer from "./Components/Footer";
+
 import Header from "./Components/Header";
 import ScrollAnimation from "./Components/ScrollAnimation";
 import LoadingContainer from "./Components/LoadingContainer";
-import React from "react";
 import IntroAI from "./Components/IntroAI";
 
 // import { OrbitControls, CameraShake } from '@react-three/drei'
@@ -21,8 +23,8 @@ function App() {
 
           <ScrollAnimation/>
 
+          <Footer/>
 
-          <div className={"end-App"}> Footer </div>
       </div>
   );
 }

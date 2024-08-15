@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "Roboto Black", sans-serif;
-}
-
 body::-webkit-scrollbar {
     margin: 0;
     overflow: visible;
@@ -23,27 +19,14 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
-* {
+body {
+    cursor: url("cursor.svg"), auto;
+    background-color: #262626;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
-}
-
-body {
-    cursor: url("cursor.svg"), auto;
-    background-color: #262626;
 }
 
 
-.end-App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 10vh;
-    background-color: #194673;
-    font-size: 1.5rem;
-}
+

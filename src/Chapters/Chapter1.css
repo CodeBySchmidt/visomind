@@ -1,25 +1,26 @@
 .Chapter1 {
-    display: flex;
-    justify-content: space-between; /* Make space between the two containers */
-    /*align-items: flex-start; !* Align items to the top *!*/
     background-color: #ececec;
-    height: 90vh;
 }
 
-.Container {
-    flex: 2;
-    margin-right: 20px;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 50px;
+.Chapter1 .container {
+    max-width: max-content;
+    margin: auto;
 }
 
-.ImageContainer {
-    flex: 1;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.Content {
-    display: grid;
+.chapter-col{
+    width: 50%;
+    padding: 70px 50px 70px 100px;
+}
+
+.chapter-col-space{
+    width: fit-content;
+    padding: 0;
 }
 
 .Topic {
@@ -29,10 +30,9 @@
     text-align: left; /* Text linksbündig ausrichten */
 }
 
-.TextColumn {
+.Chapter1 .TextColumn {
     text-align: justify;
-    font-size: calc(10px + 1vmin);
-
+    font-size: calc(12px + 1vmin);
     padding-top: 40px;
 }
 
@@ -43,7 +43,7 @@
 
 .Paceholder {
     height: 100%;
-    width: 100%;
+    width: fit-content;
     background-color: #61dafb;
 }
 
@@ -54,4 +54,75 @@ button {
     font-size: 20px;
     font-family: Orbitron, monospace;
     font-weight: bold;
+}
+
+
+/*
+RESPONSIVE BEHAVIOR
+ */
+
+@media (max-width: 900px) {
+    .chapter-col{
+        width: 100vw;
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    .chapter-col-space{
+        display: none;
+    }
+}
+
+@media (max-width: 574px) {
+    .chapter-col{
+        width: 100vw;
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    .chapter-col-space{
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .chapter-col{
+        width: 100vw;
+        padding: 40px;
+    }
+    .Chapter1 .Topic {
+        font-size: calc(35px + 1vmin);
+    }
+    .chapter-col-space{
+        display: none;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .chapter-col{
+        width: 100vw;
+        padding: 40px;
+    }
+    .Chapter1 .Topic {
+        font-size: calc(30px + 1vmin);
+    }
+    .chapter-col-space{
+        display: none;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .chapter-col{
+        width: 100vw;
+        padding: 40px;
+    }
+    .Chapter1 .Topic {
+        font-size: calc(25px + 1vmin);
+    }
+    .chapter-col-space{
+        display: none;
+
+    }
 }
