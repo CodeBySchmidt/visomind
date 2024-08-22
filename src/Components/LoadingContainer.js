@@ -13,8 +13,8 @@ import "./LoadingContainer.css"; // Importiere die CSS-Datei für die Stile der 
 const LoadingContainer = () => {
 
     return (
-        <div className={"hero-section"}>
-            <div className={"canvas-container"}>
+        <div className="hero-section">
+            <div className="canvas-container">
                 <Canvas camera={{position: [0, 0, 1]}}>
                     <Stars/>
                     <OrbitControls enableZoom={false}/>

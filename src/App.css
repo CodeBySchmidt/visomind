@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body {
-    cursor: url("cursor.svg"), auto;
+    /*cursor: url("cursor.svg"), auto;*/
     background-color: #262626;
     margin: 0;
     padding: 0;

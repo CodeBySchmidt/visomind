@@ -32,7 +32,7 @@
 
 .Chapter1 .TextColumn {
     text-align: justify;
-    font-size: calc(12px + 1vmin);
+    font-size: calc(1rem);
     padding-top: 40px;
 }
 
@@ -96,6 +96,9 @@ RESPONSIVE BEHAVIOR
     .chapter-col-space{
         display: none;
 
+    }
+    button{
+        width: 100%;
     }
 }
 
